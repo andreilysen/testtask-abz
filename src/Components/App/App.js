@@ -1,7 +1,13 @@
-import Header from "../Header";
+import Menu from "../Menu";
+import Body from "../Body";
 
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Menu />
+      <Body />
+    </div>
+  );
 }
 
 export default App;

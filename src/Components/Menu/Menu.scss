@@ -1,0 +1,32 @@
+@import "../../assets/utils/variables";
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 13px 32px;
+}
+
+.login {
+  display: flex;
+}
+
+.button {
+  width: 100px;
+  height: 34px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  background: #f4e041;
+  border: none;
+  border-radius: 80px;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
