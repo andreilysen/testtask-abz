@@ -11,7 +11,7 @@ const Menu = () => {
         <p>TESTTASK</p>
       </div>
       <div>
-        <button className={"button"}>Users</button>
+        <button>Users</button>
         <button className={"button"}>Sign up</button>
       </div>
     </div>
